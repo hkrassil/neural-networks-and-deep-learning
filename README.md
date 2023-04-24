@@ -1,3 +1,17 @@
+# Virtual environment:
+
+```
+sudo apt install python3.10-venv
+cd <...>/neural-networks-and-deep-learning
+python3 -m venv ./venv
+```
+
+Then, in .gitignore, add
+
+```
+venv/
+```
+
 # Code samples for "Neural Networks and Deep Learning"
 
 This repository contains code samples for my book on ["Neural Networks
@@ -10,8 +24,8 @@ will not be updating the current repository for Python 3
 compatibility.
 
 The program `src/network3.py` uses version 0.6 or 0.7 of the Theano
-library.  It needs modification for compatibility with later versions
-of the library.  I will not be making such modifications.
+library. It needs modification for compatibility with later versions
+of the library. I will not be making such modifications.
 
 As the code is written to accompany the book, I don't intend to add
 new features. However, bug reports are welcome, and you should feel
